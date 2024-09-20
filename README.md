@@ -1,3 +1,7 @@
+> [!WARNING]
+> Tincta is no longer available in the App Store as it is not working reliably on macOS Ventura and later.
+
+
 # Tincta
 
 Free text editor for Mac with focus on speed, stability and ease of use.
@@ -41,15 +45,15 @@ Free text editor for Mac with focus on speed, stability and ease of use.
 [Here it is](https://codingfriends.github.io/Tincta/)
 
 
-## Support
+## Status
 
-If you encounter any bugs or other issues, please [open an issue here on GitHub](https://github.com/CodingFriends/Tincta/issues). 
+We started Tincta in 2011 (!). Already on macOS Monterey, we noticed an increase of app crashes. In the Ventura, Tincta sometimes would not even launch anymore. We could never really locate nor fix these crashes. Tincta’s codebase is over 10 years old and was originally built for MacOS Snow Leopard. Since then, macOS has moved on not only from cats to landmarks but also technically. But Tincta, being a free app and one of our side projects, could not keep up.
 
+For a while now we concentrate our efforts on
+[Wokabulary — The best flash card learning app for Mac and iPhone](https://wokabulary.com).
 
-## Contribute
+We keep Tincta’s source on GitHub as a reference and for anybody who wants to build it themselves.
 
-Just do it!  
-Feel free to pick any non-assigned issue and open a pull request with a fix.
 
 
 ## Build
@@ -58,23 +62,3 @@ It should just compile with XCode. There are two caveats, though:
 
 * We have our dev certificate setup in the project so you need to remove that or replace it with your own
 * The App Store build includes the Sentry crash reporter. The private key is defined in the `SentryConfig.h` which is not included in the source. There is a `SentryConfig_Example.h` that you can use for your own Sentry account. Or you can delete all references to it alltogether and remove the import from `Tincta-AppStore-Prefix.pch`
-
-
-## Support Development
-Maintainance, App Store and website hosting is cross-financed from sales of Coding Friends' other apps.
-
-If you are learning a foreign language and want to support development of Tincta, try out [Wokabulary — The best flash card app to learn your vocabulary](https://wokabulary.com).
-
-Or make your project's decision process speedier and more transparent with our [decision logging app Loqbooq — The ideal app for ADR](https://loqbooq.app).
-          
-## Beta Test
-You can also support development by beta testing new versions prior to release.
-Simply use this link to sign up for our TestFlight beta testers group:
-https://testflight.apple.com/join/JpE6RvBv
-
-Please note, that TestFlight requires macOS 12 Monterey.
-
-
-## Supporters
-
-[![Supported by the Spice Program](https://github.com/futurice/spiceprogram/raw/gh-pages/assets/img/logo/chilicorn_with_text-180.png)](https://spiceprogram.org)
